@@ -1,0 +1,48 @@
+.searchBar {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 20px;
+  margin-bottom: 0px;
+  margin-left: 42vw;
+}
+
+.input {
+  background-color: rgb(65, 48, 1);
+
+  border-width: 0.1px;
+  color: rgb(223, 208, 124);
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 30rem;
+}
+
+::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  border: solid 2px;
+  border-radius: 9999px;
+  width: 60px;
+  height: 20px;
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  transition: background-color 0.25s;
+  cursor: pointer;
+  background-color: rgb(46, 43, 24);
+  color: rgb(197, 183, 104);
+}
+
+.btn:hover {
+  border: solid 2px;
+  background-color: rgb(197, 183, 104);
+  color: rgb(46, 43, 24);
+}

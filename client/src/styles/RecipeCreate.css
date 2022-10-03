@@ -1,0 +1,133 @@
+.create {
+  background-image: url("../images/bkgOscuro.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+  font-family: "Comic Neue", cursive;
+}
+
+.create button {
+  border-color: rgb(223, 208, 124);
+  border: solid 2px;
+  border-width: 0.5px;
+  border-radius: 100px;
+  background-color: rgb(88, 72, 45);
+  transition: background-color 0.25s, color 0.25s;
+  padding: 7px;
+  font-family: "Comic Neue", cursive;
+  cursor: pointer;
+  color: rgb(223, 208, 124);
+}
+
+.create button:hover {
+  background-color: rgb(223, 208, 124);
+  color: white;
+  border: 2px outset rgba(119, 98, 28, 0.8);
+}
+
+.buttonToHome {
+  margin-top: 10px;
+  margin-left: 90%;
+  margin-bottom: 0px;
+
+}
+
+.create h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0;
+  font-size: 40px;
+  text-shadow: rgb(78, 69, 18) 3px 1px;
+  font-family: "Comic Neue", cursive;
+  color: rgb(238, 238, 99)
+}
+
+.create form {
+  margin-left: 35%;
+  margin-top: 20px;
+  font-family: "Mulish", sans-serif;
+  color: rgb(238, 238, 99);
+  text-shadow: rgb(78, 69, 18) 3px 1px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.create label {
+  margin-right: 8px;
+
+}
+
+.inputCreate {
+  font-size: 25px;
+  height: 25px;
+}
+
+::placeholder {
+  color: rgb(207, 193, 112);
+  font-size: 20px;
+
+}
+
+.form div {
+  margin-bottom: 10px;
+}
+
+.form p {
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 40%;
+  color: rgb(78, 69, 18);
+  background-color: rgb(19, 18, 18);
+  width: 180px;
+  float: right;
+  padding: 2px;
+}
+
+.instruction {
+  width: 400px;
+}
+
+.labelInstr {
+  display: flex;
+}
+
+.create span {
+  margin-right: 6px;
+}
+
+.dietsCreate li {
+  float: left;
+  justify-content: flex-start;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.dietsCreate ul {
+  margin-top: 12px;
+}
+
+.dietsCreate button {
+  background-color: rgb(156, 54, 28);
+  border-color: rgb(189, 202, 117);
+  border-radius: 9999px;
+  font-size: 10px;
+  padding: 2px;
+  margin-top: 0;
+  margin-left: 5px;
+  width: 18px;
+}
+
+.dietsCreate button:hover {
+  background-color: rgb(241, 102, 241);
+  color: white;
+  border: 2px outset rgba(119, 98, 28, 0.8);
+  width: 20px;
+}
+
+.btnCreate {
+  margin-left: 50%;
+}
