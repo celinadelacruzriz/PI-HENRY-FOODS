@@ -4,12 +4,13 @@ import { useDispatch, useSelector } from "react-redux";
 import { getDetail } from "../actions";
 import { Link } from "react-router-dom";
 import "../styles/Detail.css";
+const image_not_found = "../images/404_image";
+
 export default function Detail(props) {
   const dispatch = useDispatch();
   // eslint-disable-next-line
   const [cambio, setCambio] = useState(false);
   const detail = useSelector((state) => state.detail);
-  const image_not_found = "../images/404_image";
   useEffect(() => {
     dispatch(getDetail(props.match.params.id));
     setCambio(true);
@@ -29,7 +30,7 @@ export default function Detail(props) {
               detail[0].image ? (
                 detail[0].image
               ) : (
-                <img src={image_not_found} alt="img plate" />
+                <img src={image_not_found} alt="img_not_found" />
               )
             }
             alt="img recipe"
