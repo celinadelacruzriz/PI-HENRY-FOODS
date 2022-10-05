@@ -108,7 +108,7 @@ export default function RecipeCreate() {
       <div className="form">
         <form onSubmit={(e) => handleSubmit(e)}>
           <div>
-            <label>Nombre de Plato:</label>
+            <label>Nombre de Plato:</label><br />
             <input
               className="inputCreate"
               placeholder="Completar..."
@@ -116,11 +116,11 @@ export default function RecipeCreate() {
               value={input.title}
               name="title"
               onChange={(e) => handleChange(e)}
-            />
+            /><br />
             {errors.title && <p>{errors.title}</p>}
           </div>
           <div>
-            <label>Summary:</label>
+            <label>Summary:</label><br />
             <input
               className="inputCreate"
               placeholder="Completar..."
@@ -128,28 +128,28 @@ export default function RecipeCreate() {
               value={input.summary}
               name="summary"
               onChange={(e) => handleChange(e)}
-            />
+            /><br />
             {errors.summary && <p>{errors.summary}</p>}
           </div>
           <div>
-            <label>Score:</label>
+            <label>Score:</label><br />
             <input
               className="inputCreate"
               type="text"
               value={input.aggregateLikes}
               name="aggregateLikes"
               onChange={(e) => handleChange(e)}
-            />
+            /><br />
           </div>
           <div>
-            <label>Health Level:</label>
+            <label>Health Level:</label><br />
             <input
               className="inputCreate"
               type="text"
               value={input.healthScore}
               name="healthScore"
               onChange={(e) => handleChange(e)}
-            />
+            /><br />
           </div>
           <div>
             <label className="labelInstr">Instrucciones:</label>
@@ -164,7 +164,7 @@ export default function RecipeCreate() {
             />
           </div>
           <div>
-            <label>Image:</label>
+            <label>Image:</label><br />
             <input
               className="inputCreate"
               type="text"
@@ -172,7 +172,7 @@ export default function RecipeCreate() {
               value={input.image}
               name="image"
               onChange={(e) => handleChange(e)}
-            />
+            /><br />
             {errors.image && <p>{errors.image}</p>}
           </div>
           <div className="dietsCreate">

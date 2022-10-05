@@ -13,7 +13,6 @@ import { Link } from "react-router-dom";
 import Card from "./Card";
 import Paginate from "./Paginate";
 import SearchBar from "./SearchBar";
-import DeleteBar from "./DeleteBar";
 import "../styles/Home.css";
 
 export default function Home() {
@@ -78,13 +77,12 @@ export default function Home() {
       <h1>Web para Recetas</h1>
       <div>
         <SearchBar />
-        <DeleteBar />
         <Link to="/recipe" className="linkCreate">
           <button className="btnCreate">CREAR RECETA</button>
         </Link>
       </div>
-      <div className="showAll">
-        <button
+      <div>
+        <button className="showAll"
           onClick={(e) => {
             handleClick(e);
           }}

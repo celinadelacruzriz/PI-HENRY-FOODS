@@ -107,15 +107,7 @@ router.post("/recipe", async (req, res) => {
   res.send("Receta creada exitosamente.");
 });
 
-router.delete("/recipes/:name", async (req, res) => {
-  return alert("deberia eliminar receta");
-  //   const { name } = req.params;
-  //   await Recipe.delete({ where: { name: name } });
 
-  //   res.send("Receta eliminada de DB");
-  //NO ME ANDAAAA ;( )
-
-});
 
 
 module.exports = router;

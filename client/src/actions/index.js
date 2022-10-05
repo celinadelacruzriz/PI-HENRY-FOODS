@@ -107,6 +107,10 @@ export function getDetail(id) {
 }
 
 export function deleteRecipe(id) {
-  alert("deberia eliminar receta")
-  return { type: DELETE_RECIPE, payload: id }
+  return async function (dispatch) {
+    dispatch({
+      type: 'DELETE_RECIPE', payload: id
+    });
+  }
+
 }
